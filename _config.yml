@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 twitter_username          : "meinestadt_de"
-github_username           : "robert-ms"
+github_username           : "meinestadt"
 minimal_mistakes_skin     : default
 search: true
 
@@ -31,7 +31,7 @@ name                      : "meinestadt.de GmbH"
 description               : "An amazing tech blog."
 url                       : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                   : # the subpath of your site, e.g. "/blog"
-repository                : "robert-ms/ms-techblog" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository                : "meinestadt/ms-techblog" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 masthead_title            : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs             : false # true, false (default)
 words_per_minute          : 200
@@ -85,7 +85,7 @@ author:
       url: "https://twitter.com/meinestadt_de/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/robert-ms/"
+      url: "https://github.com/meinestadt/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/meinestadt.de/"
@@ -97,7 +97,7 @@ footer:
       url: "https://twitter.com/meinestadt_de/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/robert-ms/"
+      url: "https://github.com/meinestadt/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/meinestadt.de/"
