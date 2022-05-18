@@ -50,7 +50,7 @@ For the H2 database and for Testcontainers the respective dependencies have to b
 ><dependency>
 >    <groupId>com.h2database</groupId>
 >    <artifactId>h2</artifactId>
->    <version>2.1.212</version>
+>    <version>{LATEST_STABLE_VERSION}</version>
 >    <scope>test</scope>
 ></dependency>
 >```
@@ -130,14 +130,14 @@ This makes the data available until the entire test has run through and the resu
 The assembly of the Data Source is also different for both variants.
 For the procedure with the H2 database, all configurations were done by filling out the application-test.properties.
 For Testcontainers, a different procedure is chosen. Under use of the Library, by objects and functions the suitable container with the desired data base system is started up. 
-Afterwards the Datasource can be built in this container.
+Afterwards the Data Source can be built in this container.
 In the initialization of the container, it is important to specify both. The desired Docker image, as well as the parameters such as **database name** and **database schema**.
 The schema can be created by Testcontainers by remedying a simple SQL script.  
 In addition, other defaults for the test database can also be made in this SQL script, depending on what is needed.
 ```sql
 CREATE SCHEMA IF NOT EXISTS exampletestcontainerdb;
 ```
-To create the datasource in Testcontainers, the following file must be created in the test scope.
+To create the Data Source in Testcontainers, the following file must be created in the test scope.
 ```java
 @Configuration
 @Profile("test")
