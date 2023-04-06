@@ -1,10 +1,11 @@
 ---
-title: Implementing a Tech-Radar at meinestadt.de: A guide to streamlining technology adoption
+title: Implementing a Tech-Radar at meinestadt.de&#58; A guide to streamlining technology adoption
 excerpt_separator: "<!--more-->"
 categories:
-  - IT 
+  - IT
 tags:
   - Tech-Radar
+  - New technologies
 published: true
 ---
 
