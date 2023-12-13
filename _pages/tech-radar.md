@@ -1,6 +1,6 @@
 ---
 permalink: /tech-radar/
-title: "meinestadt.de Tech Radar — 2022.01"
+title: "meinestadt.de Tech Radar — 2023.12"
 layout: default
 ---
 
