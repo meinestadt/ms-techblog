@@ -58,7 +58,7 @@ function radar_visualization(config) {
       { x: -675, y: -420 };
 
   const footer_offset =
-    { x: -675, y: 420 };
+    { x: -375, y: 420 };
 
   const legend_offset = [
     { x: 450, y: 90 },
